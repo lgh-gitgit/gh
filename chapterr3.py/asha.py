@@ -43,10 +43,18 @@
 #     print(B)
 
 
-a, b = input().split()
-A = int(a)
-B = int(b)
-if A>=80 and B >= 10:
-    print("합격")
+# a, b = input().split()
+# A = int(a)
+# B = int(b)
+# if A>=80 and B >= 10:
+#     print("합격")
+# else:
+#     print("불합격")
+
+
+fruit = ['사과', '포도', '감']
+a = input()
+if a in fruit:
+    print("포함")
 else:
-    print("불합격")
+    print("미포함")
