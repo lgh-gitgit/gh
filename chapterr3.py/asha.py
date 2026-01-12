@@ -27,8 +27,17 @@
 # if a[0] == "a":
 #     print(len(a))
 
-a = int(input())
-if a <= 255:
-    print(a)
+# a = int(input())
+# if a <= 255:
+#     print(a)
+# else:
+#     print(255)
+
+
+a, b= input().split()
+A = int(a)
+B = int(b)
+if A > B:
+    print(A)
 else:
-    print(255)
+    print(B)
