@@ -34,10 +34,19 @@
 #     print(255)
 
 
-a, b= input().split()
+# a, b= input().split()
+# A = int(a)
+# B = int(b)
+# if A > B:
+#     print(A)
+# else:
+#     print(B)
+
+
+a, b = input().split()
 A = int(a)
 B = int(b)
-if A > B:
-    print(A)
+if A>=80 and B >= 10:
+    print("합격")
 else:
-    print(B)
+    print("불합격")
