@@ -115,10 +115,18 @@
 #     print(b**2)
 #     b += 1
 
-a = 100
-b =10
-while b > 0:
-    print(a)
-    a *= 3
-    a /= 5
-    b -= 1
+# a = 100
+# i = 10
+# while i > 0:
+#     print(a)
+#     a *= 3
+#     a /= 5
+#     i -= 1
+
+a = 0 
+i = 0
+while a <= 100:
+    i = i + a
+    a += 2
+    
+print(i)
