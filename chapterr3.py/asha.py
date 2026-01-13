@@ -123,10 +123,28 @@
 #     a /= 5
 #     i -= 1
 
-a = 0 
+# a = 0 
+# i = 0
+# while a <= 100:
+#     i = i + a
+#     a += 2
+# print(i)
+
+# a = 0
+# i = 0
+# while a <= 100:
+#     a += 1
+#     if a % 2 ==0:
+#         i = i+ a
+#     else:
+#         continue  
+# print(i)
+a = 0
 i = 0
-while a <= 100:
+while True:
     i = i + a
     a += 2
     
+    if a > 100:
+        break
 print(i)
