@@ -52,9 +52,33 @@
 #     print("불합격")
 
 
-fruit = ['사과', '포도', '감']
-a = input()
-if a in fruit:
-    print("포함")
+# fruit = ['사과', '포도', '감']
+# a = input()
+# if a in fruit:
+#     print("포함")
+# else:
+#     print("미포함")
+
+
+# a = int(input())
+# if a>=90:
+#     print("A")
+# elif a>=80:
+#     print("B")
+# elif a>=70:
+#     print("C")
+# elif a>=60:
+#     print("D")
+# else:
+#     print("F")
+
+
+a, b = input().split()
+if a == "A" and b == "B":
+    print("5년")
+elif a != "A" and b == "B":
+    print("a는 무죄,b는 10년")
+elif a =="A" and b != "B":
+    print("b는 무죄, a는 10년")
 else:
-    print("미포함")
+    print("둘다 1년")
