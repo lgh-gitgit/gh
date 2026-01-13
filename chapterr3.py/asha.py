@@ -109,8 +109,16 @@
 #     a -=1
 
 
-a = int(input())
-b =1
-while a >= b:
-    print(b**2)
-    b += 1
+# a = int(input())
+# b =1
+# while a >= b:
+#     print(b**2)
+#     b += 1
+
+a = 100
+b =10
+while b > 0:
+    print(a)
+    a *= 3
+    a /= 5
+    b -= 1
