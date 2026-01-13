@@ -73,12 +73,21 @@
 #     print("F")
 
 
+# a, b = input().split()
+# if a == "A" and b == "B":
+#     print("5년")
+# elif a != "A" and b == "B":
+#     print("a는 무죄,b는 10년")
+# elif a =="A" and b != "B":
+#     print("b는 무죄, a는 10년")
+# else:
+#     print("둘다 1년")
+
+
 a, b = input().split()
-if a == "A" and b == "B":
-    print("5년")
-elif a != "A" and b == "B":
-    print("a는 무죄,b는 10년")
-elif a =="A" and b != "B":
-    print("b는 무죄, a는 10년")
-else:
-    print("둘다 1년")
+A = int(a)
+B = int(b)
+if A*B % 2 == 1 or A+B % 2 ==0:
+    print(A+B)
+elif A+B % 2 ==1:
+    print(A*B)
