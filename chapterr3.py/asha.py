@@ -84,10 +84,21 @@
 #     print("둘다 1년")
 
 
-a, b = input().split()
+# a, b = input().split()
+# A = int(a)
+# B = int(b)
+# if A*B % 2 == 1 or A+B % 2 ==0:
+#     print(A+B)
+# elif A+B % 2 ==1:
+#     print(A*B)
+
+
+a, b= input().split()
 A = int(a)
 B = int(b)
-if A*B % 2 == 1 or A+B % 2 ==0:
-    print(A+B)
-elif A+B % 2 ==1:
-    print(A*B)
+if A <= B:
+    print("1")
+elif A % B == 0:
+    print(A//B)
+else:
+    print(A//B+1)
