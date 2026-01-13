@@ -93,12 +93,24 @@
 #     print(A*B)
 
 
-a, b= input().split()
-A = int(a)
-B = int(b)
-if A <= B:
-    print("1")
-elif A % B == 0:
-    print(A//B)
-else:
-    print(A//B+1)
+# a, b= input().split()
+# A = int(a)
+# B = int(b)
+# if A <= B:
+#     print("1")
+# elif A % B == 0:
+#     print(A//B)
+# else:
+#     print(A//B+1)
+
+# a = int(input())
+# while a > 0:
+#     print(a)
+#     a -=1
+
+
+a = int(input())
+b =1
+while a >= b:
+    print(b**2)
+    b += 1
