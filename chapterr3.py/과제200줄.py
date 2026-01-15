@@ -59,21 +59,21 @@ if customer == china:
             if c == "y":
                 print("간짜장을 짜장으로 변경하겠습니다.", end = ' ')
             elif c == "x":
-                print("변경하지 않겠습니다.", end = ' ')    
+                print("변경하지 않겠습니다.", end = ' ')   
+        print("일회용 숟가락을 받으시겠습니까?, y or x", end = ' ')
+        f = input()
+        if f == "y":
+            print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
+        elif f == "x":
+            print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ') 
     else:
         print(f"{china_pick}같은 메뉴는 준비되어 있지 않습니다.", end = '')
         print("다른 메뉴를 주문해 주세요")
-    b = input()
-    if b in china_menu:
-        print(f"{b}, 이 메뉴들을 준비해드리겠습니다.", end = ' ')
-    else:
-        print("다른 음식점에서 주문해주시길 바랍니다.", end = ' ')
-    g = input()
-    if g == "y":
-        print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
-    elif g == "x":
-        print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
-
+        b = input()
+        if b in china_menu:
+            print(f"{b}, 이 메뉴들을 준비해드리겠습니다.", end = ' ')
+        else:
+            print("다른 음식점에서 주문해주시길 바랍니다.")
 if customer == west:
     print("메뉴를 보여드리겠습니다 :", end = ' ')
     for i in west_menu:
@@ -93,22 +93,21 @@ if customer == west:
             elif d == "미디움웰던":
                 print("스테이크를 미디움웰던으로 굽겠습니다.", end = ' ')
             elif d == "웰던":
-                print("스테이크를 웰던으로 굽겠습니다.", end = ' ')    
+                print("스테이크를 웰던으로 굽겠습니다.", end = ' ') 
+        print("일회용 숟가락을 받으시겠습니까?, y or x", end = ' ')
+        f = input()
+        if f == "y":
+            print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
+        elif f == "x":
+            print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ')    
     else:
         print(f"{west_pick}같은 메뉴는 준비되어 있지 않습니다.", end = '')
         print("다른 메뉴를 주문해 주세요")
-    e = input()
-    if e in west_menu:
-        print(f"{e}, 이 메뉴들을 준비해드리겠습니다.")
-    else:
-        print("다른 음식점에서 주문해주시길 바랍니다.")
-    print("일회용 숟가락을 받으시겠습니까?, y or x", end = ' ')
-    f = input()
-    if f == "y":
-        print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
-    elif f == "x":
-        print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
-
+        e = input()
+        if e in west_menu:
+            print(f"{e}, 이 메뉴들을 준비해드리겠습니다.")
+        else:
+            print("다른 음식점에서 주문해주시길 바랍니다.")
 if customer == korea:
     print("메뉴를 보여드리겠습니다 :", end = ' ')
     for i in korea_menu:
@@ -131,21 +130,20 @@ if customer == korea:
                 print("사이다를 추가 주문하셨습니다.")
         elif h == "x":
             print("추가메뉴를 주문하지 않으셨습니다.", end = ' ')
+        print("일회용 숟가락을 받으시겠습니까?, y or x", end = ' ')
+        f = input()
+        if f == "y":
+            print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
+        elif f == "x":
+            print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ')    
     else:
-        print(f"{korea_pick}같은 메뉴는 준비되어 있지 않습니다.", end = '')
+        print(f"{korea_pick}같은 메뉴는 준비되어 있지 않습니다.", end = ' ')
         print("다른 메뉴를 주문해 주세요")
-    z = input()
-    if z in korea_menu:
-        print(f"{z}, 이 메뉴들을 준비해드리겠습니다.")
-    else:
-        print("다른 음식점에서 주문해주시길 바랍니다.")
-    print("일회용 숟가락을 받으시겠습니까?, y or x", end = ' ')
-    f = input()
-    if f == "y":
-        print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
-    elif f == "x":
-        print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
-
+        z = input()
+        if z in korea_menu:
+            print(f"{z}, 이 메뉴들을 준비해드리겠습니다.")
+        else:
+            print("다른 음식점에서 주문해주시길 바랍니다.")
 if customer == japan:
     print("메뉴를 보여드리겠습니다 :", end = ' ')
     for i in japan_menu:
@@ -176,20 +174,20 @@ if customer == japan:
                     print("참치초밥으로 준비하겠습니다.", end = ' ')
                 elif k == "새우초밥":
                     print("새우초밥으로 준비하겠습니다.", end = ' ')
+        print("일회용 숟가락을 받으시겠습니까?, y or x", end = ' ')
+        f = input()
+        if f == "y":
+            print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
+        elif f == "x":
+            print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
     else:
         print(f"{japan_pick}같은 메뉴는 준비되어 있지 않습니다.", end = '')
         print("다른 메뉴를 주문해 주세요")
-    z = input()
-    if z in japan_menu:
-        print(f"{z}, 이 메뉴들을 준비해드리겠습니다.")
-    else:
-        print("다른 음식점에서 주문해주시길 바랍니다.")
-    print("일회용 숟가락을 받으시겠습니까?, y or x", end = ' ')
-    f = input()
-    if f == "y":
-        print("일회용 숟가락을 넣어드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
-    elif f == "x":
-        print("일회용 숟가락을 빼드리겠습니다. 음식을 만들고 있습니다.", end = ' ')
+        z = input()
+        if z in japan_menu:
+            print(f"{z}, 이 메뉴들을 준비해드리겠습니다.")
+        else:
+            print("다른 음식점에서 주문해주시길 바랍니다.")
     
 print("음식점에 대한 평가를 남겨주세요. 어떤 음식점에서 주문을 하셨나요?", end = ' ')
 o = input()
@@ -205,7 +203,7 @@ if o == "중국집":
     elif t == 4:
         print("맛있게 드셔주셔서 감사합니다.")
     elif t == 5:
-        print("갑사합니다.")
+        print("감사합니다.")
 if o == "양식집":
     print("양식집에 대한 평가를 별 1~5개로 평가해주세요.", end = ' ')
     t = input()
@@ -218,7 +216,7 @@ if o == "양식집":
     elif t == 4:
         print("맛있게 드셔주셔서 감사합니다.")
     elif t == 5:
-        print("갑사합니다.")
+        print("감사합니다.")
 if o == "한식집":
     print("한식집에 대한 평가를 별 1~5개로 평가해주세요.", end = ' ')
     t = input()
@@ -231,8 +229,8 @@ if o == "한식집":
     elif t == 4:
         print("맛있게 드셔주셔서 감사합니다.")
     elif t == 5:
-        print("갑사합니다.")
-if o == "일시집":
+        print("감사합니다.")
+if o == "일식집":
     print("일식집에 대한 평가를 별 1~5개로 평가해주세요.", end = ' ')
     t = input()
     if t == 1:
@@ -244,7 +242,7 @@ if o == "일시집":
     elif t == 4:
         print("맛있게 드셔주셔서 감사합니다.")
     elif t == 5:
-        print("갑사합니다.")
+        print("감사합니다.")
     
 
 
