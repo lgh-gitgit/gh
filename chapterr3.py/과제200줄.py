@@ -194,54 +194,54 @@ o = input()
 if o == "중국집":
     print("중국집에 대한 평가를 별 1~5개로 평가해주세요.", end = ' ')
     t = input()
-    if t == 1:
+    if t == "1":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 2:
+    elif t == "2":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 3:
+    elif t == "3":
         print("저희 음식을 주문해주셔서 감사합니다.", end = ' ')
-    elif t == 4:
+    elif t == "4":
         print("맛있게 드셔주셔서 감사합니다.")
-    elif t == 5:
+    elif t == "5":
         print("감사합니다.")
 if o == "양식집":
     print("양식집에 대한 평가를 별 1~5개로 평가해주세요.", end = ' ')
     t = input()
-    if t == 1:
+    if t == "1":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 2:
+    elif t == "2":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 3:
+    elif t == "3":
         print("저희 음식을 주문해주셔서 감사합니다.", end = ' ')
-    elif t == 4:
+    elif t == "4":
         print("맛있게 드셔주셔서 감사합니다.")
-    elif t == 5:
+    elif t == "5":
         print("감사합니다.")
 if o == "한식집":
     print("한식집에 대한 평가를 별 1~5개로 평가해주세요.", end = ' ')
     t = input()
-    if t == 1:
+    if t == "1":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 2:
+    elif t == "2":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 3:
+    elif t == "3":
         print("저희 음식을 주문해주셔서 감사합니다.", end = ' ')
-    elif t == 4:
+    elif t == "4":
         print("맛있게 드셔주셔서 감사합니다.")
-    elif t == 5:
+    elif t == "5":
         print("감사합니다.")
 if o == "일식집":
     print("일식집에 대한 평가를 별 1~5개로 평가해주세요.", end = ' ')
     t = input()
-    if t == 1:
+    if t == "1":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 2:
+    elif t == "2":
         print("죄송합니다. 앞으로 더 노력하겠습니다.", end = ' ')
-    elif t == 3:
+    elif t == "3":
         print("저희 음식을 주문해주셔서 감사합니다.", end = ' ')
-    elif t == 4:
+    elif t == "4":
         print("맛있게 드셔주셔서 감사합니다.")
-    elif t == 5:
+    elif t == "5":
         print("감사합니다.")
     
 
