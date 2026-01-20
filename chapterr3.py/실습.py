@@ -96,8 +96,21 @@
 
 
 
-a = 0
-for i in range(1, 101, 2):
-    a += i
-print(a)
+# a = 0
+# for i in range(1, 101, 2):
+#     a += i
+# print(a)
+# a=0
+# for i in range(1, 101):
+#     if i % 2== 0:
+#         continue
+#     a += i
+# print(a)
+
+
+for a in range(2, 10):
+    print(f'"""""{a}단"""""')
+    for i in range(1, 10):
+        print(f"{a} * {i} =", a*i)
+        
     
