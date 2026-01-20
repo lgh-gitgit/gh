@@ -67,6 +67,7 @@
 
 
 #print(28%4==0)
+
 #print(28%7==0)
 #print(28%4==0 and 28%7==0)
 
@@ -74,3 +75,29 @@
 #a = int(a)
 #b = int(b)
 #print((a%2==0 and b%2==1) or (a%2==1 and b%2==0))
+# 
+# 
+# 
+
+
+# a = int(input())
+# for _ in range(a):
+#     print(a)
+
+
+
+# a = int(input())
+# for i in range(1, a+1):
+#     print(i**2)
+
+
+
+
+
+
+
+a = 0
+for i in range(1, 101, 2):
+    a += i
+print(a)
+    
