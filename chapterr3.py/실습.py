@@ -129,14 +129,51 @@
 이 변수의 값을 출력
 '''
 
+# a = input()
+# def len(k):
+#     n=0
+#     for _ in k:
+    
+#         n += 1 
+#     return n
+# print(len(a))
+
+
+
+
+# a=50
+# def g(k):
+#     while k > 0:
+#         k -= 1
+#         print("파이썬")
+# g(a)
+
+
+
+
+
+# a = input()
+# def k(n):
+#     b =0
+#     while b <51:
+#         b += 1
+#         print(n)
+# k(a)
+
+
+
+
+
+
+
+
 a = input()
-def len(k):
-    n=0
-    for _ in k:
-    
-        n += 1 
-    return n
-print(len(a))
-    
+def g(k):
+    u=0
+    while u<51:
+        u += 1
+        print(k)
+    return k[0]
 
-
+g(a)
+print(g(a))
