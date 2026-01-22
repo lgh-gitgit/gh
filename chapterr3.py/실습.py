@@ -108,9 +108,35 @@
 # print(a)
 
 
-for a in range(2, 10):
-    print(f'"""""{a}단"""""')
-    for i in range(1, 10):
-        print(f"{a} * {i} =", a*i)
-        
+# for a in range(2, 10):
+#     print(f'"""""{a}단"""""')
+#     for i in range(1, 10):
+#         print(f"{a} * {i} =", a*i)
+
+
+# a, b = input().split()
+# a = int(a)
+# b = int(b)
+# def c():
+#     if a>b:
+#         return a
+#     elif a<b:
+#         return b
+# print(c())
+
+'''
+입력을 받은 문자열의 문자의 수만큼 반복문을 돌려서 한 변수에 돌린 수를 저장
+이 변수의 값을 출력
+'''
+
+a = input()
+def len(k):
+    n=0
+    for _ in k:
     
+        n += 1 
+    return n
+print(len(a))
+    
+
+
