@@ -167,13 +167,19 @@
 
 
 
-a = input()
-def g(k):
-    u=0
-    while u<51:
-        u += 1
-        print(k)
-    return k[0]
+# a = input()
+# def g(k):
+#     u=0
+#     while u<51:
+#         u += 1
+#         print(k)
+#     return k[0]
 
-g(a)
-print(g(a))
+# g(a)
+# print(g(a))
+
+a = int(input())
+def multi(k):
+    for i  in range(1, 10):
+        print(f"{k} * {i} = {k*i}")
+multi(a)
