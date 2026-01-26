@@ -178,8 +178,20 @@
 # g(a)
 # print(g(a))
 
-a = int(input())
+
 def multi(k):
     for i  in range(1, 10):
         print(f"{k} * {i} = {k*i}")
-multi(a)
+
+
+
+
+def mmulti():
+    for i  in range(1, 10):
+        multi(i)
+
+mmulti()
+
+
+
+
