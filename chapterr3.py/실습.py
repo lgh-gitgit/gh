@@ -179,19 +179,43 @@
 # print(g(a))
 
 
-def multi(k):
-    for i  in range(1, 10):
-        print(f"{k} * {i} = {k*i}")
+# def multi(k):
+#     for i  in range(1, 10):
+#         print(f"{k} * {i} = {k*i}")
 
 
 
 
-def mmulti():
-    for i  in range(1, 10):
-        multi(i)
+# def mmulti():
+#     for i  in range(1, 10):
+#         multi(i)
 
-mmulti()
+# mmulti()
+
+# def df(*m):
+#     b=0
+#     for c in m:
+#         b += c
+#     print(b)
+
+# df(1, 2, 3, 4, 5)
 
 
 
+# a = input().split()
+# c =input()
+# def add():
+#     b=0
+#     for i in range(0,len(a)):
+#         b += int(a[i])
+#     print(b)
 
+# def mul():
+#     b=1
+#     for i in range(0, len(a)):
+#         b *= int(a[i])
+#     print(b)
+# if c == "add":
+#     add()
+# if c == "mul":
+#     mul()
