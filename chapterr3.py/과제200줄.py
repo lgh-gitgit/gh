@@ -74,7 +74,9 @@ if customer == china:
         if b in china_menu:
             print(f"{b}, 이 메뉴들을 준비해드리겠습니다.", end = ' ')
         else:
-            print("다른 음식점에서 주문해주시길 바랍니다.")
+            while True:
+                print(f"{china_pick}같은 메뉴는 준비되어 있지 않습니다.", end = '')
+
 if customer == west:
     print("메뉴를 보여드리겠습니다 :", end = ' ')
     for i in west_menu:

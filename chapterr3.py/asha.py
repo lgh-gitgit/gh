@@ -139,12 +139,13 @@
 #     else:
 #         continue  
 # print(i)
-a = 0
-i = 0
-while True:
-    i = i + a
-    a += 2
-    
-    if a > 100:
-        break
-print(i)
+# a = 0
+# i = 0
+# while True:
+#     i = i + a
+#     a += 2
+#     if a > 100:
+#         break
+# print(i)
+
+
