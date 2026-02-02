@@ -252,3 +252,54 @@
 5. 결제 방식에 맞게 결제 후 음료수를 수령한다.
 '''
 
+
+
+
+
+
+
+
+
+class Gifticon:
+    def __init__(self, owner, cost, menu, image, branch, term = 2036,):
+        self.owenr = owner
+        self.cost = cost
+        self.images=image
+        self.term = term
+        self.branchs = branch
+        self.menu = menu
+
+    def image(self, image):
+        self.images = image
+    
+    def term_recog(self, term):
+        if term >= self.term:
+            print('wrong')
+        else:
+            print('right')
+    
+    def branch(self,k):
+        for i in k:
+            u = i 
+            if  u in self.branchs:
+                print("사용가능")
+            else:
+                print("사용불가능")
+        
+    
+    def gift(self, owner):
+        self.owner = owner
+        return self.owner
+
+a = input().split()
+Gifticon_1 = Gifticon("박도현", 10000, "카페라뗴" ,"스타벅스", a , 2035 )
+
+y = input().split()
+Gifticon_1.branch(y)                          
+
+
+
+
+   
+
+
