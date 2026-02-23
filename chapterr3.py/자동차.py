@@ -29,7 +29,6 @@
 
 
 
-
 class cart:
     def __init__(self, max, color, accel, x=0,y=0):
         self.max=max
@@ -37,17 +36,38 @@ class cart:
         self.accel=accel
         self.x=x
         self.y=y
-    def direction(self, k):
-        return k
-    def accel_(self):
+        self.direction = "u"
             
-    # def boost_(self, b):
-    #     a = self.accel
-    #     a += b
-    #     self.x += a
-    #     self.y += a
-    #     print(self.x, self.y)
-    # def 
+    def accel_(self):
+        if self.direction == "r":
+            self.x += self.accel
+            print(self.x, self.y)
+        elif self.direction == "u":
+            self.y += self.accel     
+            print(self.x, self.y)
+        elif self.direction == "l":
+            self.x -= self.accel
+            print(self.x, self.y)
+        elif self.direction == "d":
+            self.y -= self.accel
+            print(self.x, self.y)
+    def set_direction(self, k):
+        if k not in ["u", "d", "r", "l"]:
+            
+            return "no"
+        elif k in ["u", "d", "r", "l"]:
+            self.direction = k
+            return k
+    
+            
 cart_1 = cart(100, "빨간색", 10)
-a= input().split()
-cart_1.direction(a)
+
+while True:
+    a = input("방향을 입력해주세요: ") 
+    b = cart_1.set_direction(a)
+    if b == "no":
+        continue
+    else:
+        cart_1.accel_()
+    
+    
